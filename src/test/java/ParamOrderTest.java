@@ -41,8 +41,9 @@ public class ParamOrderTest {
         };
     }
 
+    //Создание заказов с разными цветами самокатов
     @Test
-    @DisplayName("Создание заказов с разными цветами самокатов")
+    @DisplayName("Create orders with different colors of scooters")
     public void createNewOrders() {
         Order order = new Order(firstName, lastName, address, metroStation, phone, rentTime, deliveryDate, comment, color);
         postSteps.createNewOrder(order);

@@ -10,8 +10,9 @@ public class PositiveCourierTest {
 
     private Response response;
 
+    //Создание курьера
     @Test
-    @DisplayName("Создание курьера")
+    @DisplayName("Creating a courier")
     public void createCourier() {
         postSteps.createAndCheckCorrectCourier();
     }

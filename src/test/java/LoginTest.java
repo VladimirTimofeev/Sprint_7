@@ -17,13 +17,13 @@ public class LoginTest {
     }
 
     @Test
-    @DisplayName("Авторизация курьера")
+    @DisplayName("Courier authorization")
     public void authorizationCourier() {
         response = postSteps.findCourierAndCheckRequest();
     }
 
     @Test
-    @DisplayName("Поиск курьера с неверным паролем или попытка авторизации курьера с неверными данными")
+    @DisplayName("Search for a courier with an incorrect password or attempt to authorize a courier with incorrect data")
     public void findCourierinkorrectPassword() {
         postSteps.findCourierWithIncorrectPassword();
     }

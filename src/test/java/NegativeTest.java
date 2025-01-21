@@ -7,7 +7,7 @@ public class NegativeTest {
     private PostSteps postSteps = new PostSteps();
 
     @Test
-    @DisplayName("Проверка создания курьера или его авторизации с неполными данными (без пароля)")
+    @DisplayName("Verification of courier creation or authorization with incomplete data (without password)")
     public void checkCreateCourierIncompleteData() {
         postSteps.createCourierNotFullData();
     }

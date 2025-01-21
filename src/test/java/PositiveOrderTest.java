@@ -5,8 +5,9 @@ public class PositiveOrderTest {
 
     private GetSteps getSteps = new GetSteps();
 
+    //Проверка получения списка заказов
     @Test
-    @DisplayName("Проверка получения списка заказов")
+    @DisplayName("Checking the receipt of the order list")
     public void checkGetRequesrOrders() {
         getSteps.getCheckRequestOrders();
     }

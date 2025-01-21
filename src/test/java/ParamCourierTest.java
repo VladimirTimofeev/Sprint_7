@@ -30,8 +30,9 @@ public class ParamCourierTest {
         };
     }
 
+    //Создание двух одинаковых курьеров и курьеров с одинаковым логином
     @Test
-    @DisplayName("Создание двух одинаковых курьеров и курьеров с одинаковым логином")
+    @DisplayName("Creating two identical couriers and couriers with the same username")
     public void createDoubleCourier() {
         Courier courier = new Courier(login, password, firstName);
         postSteps.createParametrezedCourier(courier);
